@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'chitown_nfregular';
+    src: url('../assets/fonts/chi-townnf-webfont.woff2') format('woff2'),
+         url('../assets/fonts/chi-townnf-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'monacoregular';
+    src: url('../assets/fonts/monaco-webfont.woff2') format('woff2'),
+         url('../assets/fonts/monaco-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}

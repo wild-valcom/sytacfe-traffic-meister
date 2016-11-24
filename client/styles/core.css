@@ -1,0 +1,12 @@
+@import 'font.css';
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'monacoregular', monospace;
+  background: #df6526;
+}

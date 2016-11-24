@@ -1,0 +1,17 @@
+.select-wrapper {
+  margin-bottom: 1rem;
+}
+
+.select-wrapper:last-child {
+  margin-bottom: 0;
+}
+
+.select {
+  width: 100%;
+  font-size: 1rem;
+}
+
+.select-label {
+  margin: 0;
+  font-size: 1.125rem;
+}

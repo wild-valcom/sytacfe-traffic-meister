@@ -1,0 +1,58 @@
+.page {
+  display: flex;
+  flex-flow: row wrap;
+  font-weight: bold;
+  text-align: left;
+}
+
+.page > * {
+  flex: 1 100%;
+  margin-bottom: 0.9375rem;
+  padding: 0.75rem;
+}
+
+.panel {
+  background: #fff;
+}
+
+.panel-inner {
+  padding: 0.5rem;
+  box-sizing: border-box;
+  height: 100%;
+  border: 0.25rem solid #000;
+}
+
+.panel-text--empty {
+  margin: 0;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+}
+
+@media all and (min-width: 600px) {
+  .sidebar {
+    flex: 1 auto;
+  }
+
+  .panel-inner {
+    padding: 0.9375rem;
+  }
+}
+
+@media all and (min-width: 800px) {
+  .page {
+    margin: 0.9375rem 2.625rem;
+  }
+  .main {
+    flex: 2 0;
+    order: 1;
+  }
+  .sidebar {
+    margin-left: 0.9375rem;
+    order: 2;
+  }
+  .footer {
+    order: 3;
+  }
+}

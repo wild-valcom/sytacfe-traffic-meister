@@ -1,0 +1,38 @@
+.header {
+  background: #fff;
+}
+
+.header .panel-inner {
+  padding: 0;
+}
+
+.header-title {
+  position: relative;
+  margin: 0;
+  padding: 0 1.3125rem;
+  font-size: 2.4rem;
+  line-height: 4rem;
+  font-family: 'chitown_nfregular', Helvetica, sans-serif;
+  text-decoration: underline;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.header-logo {
+  display: none;
+}
+
+@media all and (min-width: 600px) {
+  .header-title {
+    font-size: 4.25rem;
+    line-height: 7.375rem;
+    text-align: left;
+  }
+
+  .header-logo {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+}
